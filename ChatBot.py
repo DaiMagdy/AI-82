@@ -22,5 +22,4 @@ if __name__ == "__main__":
         print("Chatbot:", response)
 
         if "goodbye" in user_input:
-            print("Chatbot: Goodbye!")
             break
