@@ -1,9 +1,19 @@
+''' 
+explain some thing about this class 
+
+'''
 class Calculator:
+
     def __init__(self,x,y):
         self.x=x
         self.y=y
         
     def add(self):
+        '''
+        this function sum two number no args taken and return the sum
+        return_parm:rutuen the summusion
+        type_return:float
+        '''
         return self.x + self.y
 
     def subtract(self):
